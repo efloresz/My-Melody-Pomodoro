@@ -8,7 +8,3 @@
 
 ### Application demo in 4x speed:
 ![myMelody](https://github.com/user-attachments/assets/99965fb4-4e2e-41a0-aee1-d434552c598a)
-
-
-### Running the project:
-#### - Upload the project into VSCode and run the index.html file on your default browser.
