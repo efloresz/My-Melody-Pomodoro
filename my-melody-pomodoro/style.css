@@ -1,0 +1,114 @@
+body {
+    background: url('images/my-melody.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin: 20px 0;
+    display: inline-block;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #333;
+}
+
+
+p {
+    font-size: 24px;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.timers {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin: 20px 0;
+}
+
+.totalTime {
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-family: 'Lobster', cursive;
+}
+
+
+.btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #ffadd3; /* New button color */
+    border: none;
+
+    border-radius: 10px; /* Slightly rounded corners */
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 4px 6px hsl(0, 0%, 0%); /* Deeper shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ffabe8; /* Darker color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+#firstPlus, #firstMinus {
+    background-color: #ffe1f2; 
+}
+
+#secondPlus, #secondMinus {
+    background-color: #ffe1f2; 
+}
+
+
+
+/* timer */
+#tutorial {
+    background: rgba(255, 255, 255, 0.20); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .totalTime {
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
