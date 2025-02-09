@@ -10,5 +10,5 @@
 ![myMelody](https://github.com/user-attachments/assets/99965fb4-4e2e-41a0-aee1-d434552c598a)
 
 
-### Run the project:
+### Running the project:
 #### - Upload the project into VSCode and run the index.html file on your default browser.
